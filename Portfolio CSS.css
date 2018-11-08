@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li a{
+	color: white;
+	font-size: 15px;
+	font-family: Century Gothic;
+}
+
+
+
+header {
+	background-image: url("Matrix.GIF");
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+.main-nav {
+	float:right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li {
+	display: inline-block;
+}
+.main-nav li a {
+	color: white;
+	padding: 8px 20px; 
+	text-decoration: none;
+	font-family: Century Gothic;
+	font-size: 15px;
+}
+.main-nav li a:hover {
+	border: 1px solid white; 
+}
+.logo img {
+	width: 150px;
+	height: auto;
+	float: left;
+}
+.hero {
+	position: absolute;
+	width: 1200px;
+	margin-left: 0;
+	margin-right: 0;
+}
+.button{
+	margin-top: 30px;	
+	margin-left: 440px;
+}
+
