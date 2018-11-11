@@ -25,14 +25,14 @@ header {
 	display: inline-block;
 }
 .main-nav li a {
-	color: white;
+	color: black;
 	padding: 8px 20px; 
 	text-decoration: none;
 	font-family: Century Gothic;
 	font-size: 15px;
 }
 .main-nav li a:hover {
-	border: 1px solid white; 
+	border: 1px solid black; 
 }
 .logo img {
 	width: 150px;
