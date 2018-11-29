@@ -1,33 +1,40 @@
-* {
-	margin: 0;
-	padding: 0;
-}
+
 li a{
 	color: white;
+    font-family: Century Gothic;
 	font-size: 15px;
-	font-family: Century Gothic;
+	
 }
 
-
-
-header {
+body {
 	background-image: url("Matrix.gif");
 	background-position: center;
 	background-size: cover;
-	height: 100vh;
+
 }
-.h1 {
+h1 {
 	color: white;
-	font-size:  30px
+	font-size:  30px;
 	font-family: Century Gothic;
 }
-.container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  position: fixed;
-  align-items: center;
-  justify-content: center;
+h2 {
+    color: white;
+    font-size: 20px
+}
+
+.h2 {
+    background-color: darkgreen;
+    display: block;
+    height: 20px;
+    width: 50px;
+    
+}
+
+.position {
+    float:right; 
+    margin-top:5px;
+    margin-left: 600px;
+    position: absolute;
 }
 .main-nav {
 	float:right;
@@ -39,24 +46,31 @@ header {
 }
 .main-nav li a {
 	color: white;
+    font-family: Century Gothic;
+	font-size: 15px;
 	padding: 8px 20px; 
 	text-decoration: none;
-	font-family: Century Gothic;
-	font-size: 15px;
+	
 }
 .main-nav li a:hover {
 	border: 1px solid white; 
 }
-.logo img {
-	width: 150px;
-	height: auto;
-	float: left;
-}
+
 .center {
 	margin: auto;
 	width: 20%;
-	border: 1px solid white;
-	padding: 10px;
+	padding: 100px;
 }
 
+p {
+    color: white; 
+    font-size: 18px;
+}
+.goals{
+    display: block
+    background-color: darkgreen; 
+    padding: 20px;
+    height: 335px;
+    width: 100px;
+}
 
